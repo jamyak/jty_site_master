@@ -66,6 +66,10 @@ p {
 	color: var(--text-secondary);
 }
 
+.p {
+	color: var(--text-primary);
+}
+
 footer {
 	padding: 5px;
 	color: var(--color-bl);
@@ -140,6 +144,8 @@ embed {
 	.link-text {
 		display: none;
 		margin-left: 1rem;
+		margin-right: 1rem;
+		font-size: 0.9rem;
 	}
 
 	.nav-link i {
@@ -170,7 +176,7 @@ embed {
 .soclinks {
 	/* I swear this never works, why */
 	display: block;
-	align-items: center;	
+	align-items: center;
 }
 .fa-2x {
 	color: var(--text-test);
@@ -182,7 +188,7 @@ embed {
 	.navbar {
 		bottom: 0;
 		width: 100vw;
-		height: 5rem;	
+		height: 5rem;
 	}
 		.navbar-nav {
 			flex-direction: row;
@@ -218,7 +224,7 @@ embed {
 	}
 
 	.navbar:hover .logo i {
-		transform: rotate(90deg);		
+		transform: rotate(90deg);
 		margin-left: 3rem;
 	}
 }
